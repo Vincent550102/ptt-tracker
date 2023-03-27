@@ -17,8 +17,8 @@ class Crawler():
         self.base_url = "https://www.ptt.cc"
         self.old_articles = dict()
         for track_board in track_boards:
-            self.old_articles[track_board] = self.get_article_url_list(
-                track_board)
+            # self.get_article_url_list(track_board)
+            self.old_articles[track_board] = []
 
         pass
 
