@@ -66,6 +66,8 @@ class Crawler():
 
 if __name__ == "__main__":
     crawler = Crawler()
+    requests.get(
+        f"https://api.telegram.org/bot{os.getenv('botsecret')}/sendMessage?chat_id={chat_id}&text='部屬成功'&parse_mode=HTML")
     crawler.run()
     # print(len(crawler.get_article_url_list("soho")))
     # print(crawler.get_article_info_and_send(
