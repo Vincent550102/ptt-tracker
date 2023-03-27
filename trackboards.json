@@ -1,0 +1,11 @@
+{
+ "track_boards":[
+   "CodeJob",
+   "soho"
+ ],
+ "bad_article_keyword":[
+   "\">\\[公告\\]",
+   "\">\\[自介\\]"
+ ],
+ "chat_id": "@pttsohonotify"
+}
