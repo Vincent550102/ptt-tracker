@@ -1,4 +1,4 @@
 ## Deploy
 ```
-sudo docker compose yml
+sudo docker compose up -d
 ```
